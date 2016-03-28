@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'dashboard/index'
+
+  get 'landing/show'
+
   # Root route
   root 'landing#show'
 
